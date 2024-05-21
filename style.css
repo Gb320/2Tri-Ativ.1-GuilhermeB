@@ -1,0 +1,84 @@
+:root {
+    --white : #ffffff;
+    --black : #000000;
+    --lightblue : #7fb3d5;
+}
+
+body{
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: var(--lightblue);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.cabecalho-imagem {
+    width: 3%;
+    margin-right: 2%;
+
+}
+
+.cabecalho-lista-item:hover {
+    transform: translateY(-5px);
+    color: #000000;
+    transition: 0.3s;
+}
+
+.cabecalho-lista-item{
+    /*general*/
+    align-items: center;
+    display: inline-block;
+    margin: 10px;
+    font-size: 24px;
+    /*transition*/
+    transition-property: transform color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.Titulo1{
+    color: var(--white);
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.LoremIpsum{
+    /*general*/
+    font-family: Arial, sans-serif;
+    color: var(--white);
+    margin: 2%;
+    padding: 10px;
+    width: 20%;
+    border: 5px solid var(--lightblue);
+    background-color: rgb(0, 0, 0);
+    /*transition*/
+    transition-property: box-shadow background color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+
+.LoremIpsum:hover {
+    box-shadow: var(--lightblue);
+    transition: 0.3s;
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 50px 2px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.Titulo2{
+    color: var(--white);
+    margin-left: 2%;
+    padding-top: 2%;
+}
