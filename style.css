@@ -82,3 +82,19 @@ body{
     margin-left: 2%;
     padding-top: 2%;
 }
+
+.footer {
+    background-color: #ffffff;
+}
+
+
+.footercontainer {
+    background-color: #ffffff;
+}
+
+.footer-imagem{
+    margin-left: 5%;
+    margin-top:1%;
+    margin-bottom: 1%;
+    width: 2%;
+}
